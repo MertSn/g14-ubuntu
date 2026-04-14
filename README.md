@@ -33,7 +33,7 @@ This repository contains scripts and tools to help set up Ubuntu on the ASUS G14
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/dariomncs/asus-ubuntu.git
+   git clone https://github.com/MertSn/g14-ubuntu.git
    cd asus-ubuntu
    ```
 

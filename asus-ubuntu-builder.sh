@@ -19,7 +19,7 @@ cleanup() {
   fi
 }
 
-trap cleanup exit
+trap cleanup EXIT INT TERM ERR
 cd "$build_dir"
 
 function create_dockerfile() {

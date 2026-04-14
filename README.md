@@ -1,4 +1,4 @@
-# ASUS G14 2024 Ubuntu Setup Scripts
+# ASUS G14 GA402 Ubuntu Setup Scripts
 
 This repository contains scripts and tools to help set up Ubuntu on the ASUS G14 2024 laptop and similar models. The goal is to streamline access to essential utilities, sound fixes, and performance-related setup steps for this hardware.
 

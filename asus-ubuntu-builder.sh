@@ -44,7 +44,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt update -qqy \
 
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
-ENV TARGET_VERSION="\$target_version"
+ENV TARGET_VERSION="$target_version"
 RUN git clone --depth 1 --branch \$TARGET_VERSION $git_url
 
 WORKDIR /$app_name
